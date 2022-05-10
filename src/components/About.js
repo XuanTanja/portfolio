@@ -62,8 +62,7 @@ function About() {
                 <Grid item xs={12} sm={8}>
                     <Typography variant="body1" gutterBottom  align="justify">
                         Hier werden mehrere meiner verschiedenen Projekte präsentiert.<br />
-                        Wenn Sie also gerne etwas mehr darüber erfahren wollen, welche Projekte ich in den letzten Jahren entwickelt habe und wie diese entstanden und verlaufen sind, sind Sie hier genau richtig! <br />
-                        Momentan besuche ich das siebten Semester des internationalen Studiengangs Medieninformatik an der Hochschule Bremen. Viele dieser Projekte sind im Rahmen von Modulen an der Hochschule entstanden. <br /> Viel Spaß :)
+                        Viel Spaß :)
                     </Typography>
                 </Grid>
             </Grid>

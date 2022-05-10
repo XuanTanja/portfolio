@@ -9,15 +9,15 @@ function ContactFooter() {
     const contactItems = [
         {
             title: "EMAIL",
-            path: "mailto: moumita.ahmad@gmail.com"
+            path: "mailto: tanja.manlik[at]gmx.com"
         },
         {
             title: "GITHUB",
-            path: "https://github.com/moumitahmad"
+            path: "https://github.com/xuantanja/"
         },
         {
             title: "LINKEDIN",
-            path: "https://de.linkedin.com/in/moumita-ahmad-279b2a1b4"
+            path: "https://www.linkedin.com/in/tanja-manlik-0794291a4/"
         },
         /* {
             title: "XING",
@@ -57,7 +57,7 @@ function ContactFooter() {
             <br/>
             <br/>
             <Typography gutterBottom variant="subtitle1" className="oswald align-center">
-                &copy; 2021 Moumita Ahmad
+                &copy; 2022 Xuan Tanja
             </Typography>
             </Container>
             </div>
