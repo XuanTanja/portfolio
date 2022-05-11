@@ -2,7 +2,7 @@ import '../style/App.css';
 
 import { Grid, Box, Button, Typography, Container } from '@material-ui/core';
 
-import cv_path from '../assets/Lebenslauf_MoumitaAhmad.pdf';
+import cv_path from '../assets/Lebenslauf_Tanja.pdf';
 
 function ContactFooter() {
 

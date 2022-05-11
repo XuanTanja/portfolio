@@ -1,31 +1,30 @@
 
     const projects = [
         {
-            id: 2,
-            title: "BuildAR",
-            description: "Entwicklung einer AR Anwendung mit Hilfe von User-Feedback",
-            team: "Drei köpfiges Team",
-            duration: "ein Semester",
-            time: "3. Semester, Ende 2019",
+            id: 1,
+            title: "Art Knowledge Graph",
+            description: "Construction of an art Knowledge Graph and Clustering",
+            team: "Three students",
+            duration: "Seminar of one semester",
+            time: "3. semester, Beginning of 2021",
             technologies: [
-                "Usertests", 
-                "Unity", 
-                "Augmented Reality"
+                "Python",
+                "Neo4j DB",
+                "Cypher queries"
             ],
-            image: "BAR/BuildARPreview.svg",
+            image: "KG/kg_thumbnail.jpg",
             about: [
-                "In dem Projekt BuildAR habe ich meine Kompetenzen in Usertests und Augmented Reality entwickelt. Wir haben uns die Frage gestellt, welche Alternativen es zur etablierten Papieranleitung gibt und inwiefern diese in der User Experience mithalten können.", 
-                "Im Laufe des Projektes haben wir zwei größere Usertests durchgeführt und drei Prototypen erstellt. Wobei der erste Usertest verschiedene Darstellungsmöglichkeiten in AR verglich und der zweite die Usability der einzelnen Prototypen.",
-                "Als Kontroll-Anleitung haben wir eine Papieranleitung erstellt und als Alternativen eine XD Anleitung, die ein simple online Anleitung symbolisieren sollte, und eine Anleitung, die mithilfe von Augmented Reality dem User den nächsten Schritt angezeigt.",
+                "The main goal of this project was to automatically create and explore a knowledge graph that was built on art data resources.",
+                "The resources consisted of picture scanned old art books, exhibition catalogues and auction manuals, mostly about Pablo Picasso. Challenges that came with the data are: unstructured free form texts, noisy OCRed text, incomplete sentences and a lot of spelling and formatting errors. An accurate named entity matching was strongly required because some entities meant the same e.g. Pablo Ruiz, Pablo Ruys Picasso, Pablo Ruiz Picasso, P.-R. Picasso or just Picasso.",
+                "Knowledge Graphs are perfect for automated analysis, relation and entity exploration and further information retrieval. Before constructing the knowledge graph, several preprocessing steps had to be done. These preprocessing steps included co-reference resolution by the help of neuralcoref and spaCy, named entity recognition (NER), ontology mapping with DBpedia, relation extraction and serialization as output triples. The output triples represent the knowledge graph and can be visualized with another tool, here Neo4j was used.",
+                "The seminar leader provided some example queries to verify and evaluate our knowledge graph. We showed that our knowledge graph was able to answer following questions: Where was Picasso born? Who is the painter of Jacqueline? What is the location of the Picasso museum?",
                 <br/>,
-                "In den folgenden Bildern können Sie ein Eindruck unseres Prozesses und unseren Ergebnissen erhalten. Für einen tieferen Eindruck empfiehlt sich aber die Dokumentation."
+                "The following pictures show the progress and result of the project."
             ],
             hasGallery: true,
-            mockup: "BAR/BuildARMockup.mp4",
-            mockupVorschau: "BAR/BuildAR_preview.PNG",
-            mockupDescription: "Eine kleine Live-Demo des AR Prototyps",
+            mockup: "",
             myWork: [
-                "Wir habe dieses Projekt zu dritt entwickelt, wobei wir alle viel an der Konzeption und den Tests gearbeitet haben. Doch im Verlauf des Projektes habe ich mich vorrangig auf den Prototyp in AR konzentriert."
+                "Everybody contributed equally."
             ],
             path: "https://github.com/moumitahmad/hciProject",
             docu: ""
