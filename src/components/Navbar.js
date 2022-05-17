@@ -81,7 +81,7 @@ function Navbar(props) {
                             <Icon fontSize="large">
                                 <img src={logoSVG} height="100%" alt="logo"/>
                             </Icon>
-                            {/* <Typography variant={navbar ? 'subtitle1' : 'h5'}>Moumita Ahmad</Typography> */}
+                            {/* <Typography variant={navbar ? 'subtitle1' : 'h5'}></Typography> */}
                         </Link>
                     </Box>
                     {mobile 

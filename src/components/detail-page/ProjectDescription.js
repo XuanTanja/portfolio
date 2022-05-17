@@ -48,7 +48,7 @@ function ProjectDescription(props) {
 
     return(
         <div id="description">
-           <h1 className="section-title" id="description">Projekt: <strong>{ project.title }</strong></h1>
+           <h1 className="section-title" id="description">Project: <strong>{ project.title }</strong></h1>
            <Grid container spacing={5}>  {/* TODO: justifyContent="flex-start" */}
                 <Grid item xs={12} md={6}>
                     <div className="about-image">

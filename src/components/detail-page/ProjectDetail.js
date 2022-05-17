@@ -40,7 +40,7 @@ function PresentDetail({ match }) {
     if(project.hasGallery || project.mockup !== "") {
         menuItems.push(
             {
-                title: "Prozess", 
+                title: "Results",
                 path: "gallery"
             }
         )
@@ -48,7 +48,7 @@ function PresentDetail({ match }) {
     if(project.myWork !== "") {
         menuItems.push(
             {
-                title: "mein Anteil", 
+                title: "Contribution",
                 path: "my-work"
             }
         )
@@ -56,7 +56,7 @@ function PresentDetail({ match }) {
 
     menuItems.push(
         {
-            title: "Kontakt", 
+            title: "Contact",
             path: "contact-footer"
         }
     )

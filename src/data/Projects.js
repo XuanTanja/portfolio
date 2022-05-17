@@ -30,6 +30,35 @@
             ],
             path: "",
             docu: ""
+        },
+        {
+            id: 1,
+            title: "Natural Language Processing on LoL",
+            description: "Understand the game League of Legends and the corresponding universe. Discover dependencies and relations to help beginners understanding the extensive game.",
+            team: "Two students",
+            duration: "Seminar of one semester",
+            time: "3. semester, Beginning of 2021",
+            technologies: [
+                "Python",
+                "NLP tools",
+                "Jupyter notebook"
+            ],
+            image: "NLP_LoL/nlp_wordcloud.jpg",
+            about: [
+                "Three points that we implemented in this project:",
+                <ul>
+                    <li>the <b> dependencies</b> between Champions and their properties e.g. their assigned spells (every champ has five spells), their position in the game, their classes, damagetype, toughness, control and many more,</li>
+                    <li>a <b>sentiment analysis</b> about the champion history/biography and</li>
+                    <li><b>summarization</b> task of champion histories.</li>
+                </ul>,
+            ],
+            hasGallery: false,
+            mockup: "",
+            myWork: [
+                "Everybody contributed equally."
+            ],
+            path: "",
+            docu: ""
         }
     ]
 

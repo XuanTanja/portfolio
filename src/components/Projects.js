@@ -8,7 +8,7 @@ import projects from '../data/Projects';
 const Projects = () => {    
     return(
         <div id="all-projects">
-            <h1 className="section-title">Meine Projekte</h1>
+            <h1 className="section-title">My projects from studies and private</h1>
             <div className="grid-container">
                 {projects.map((project, idx) => (
                     <div className="grid-item" key={idx}>

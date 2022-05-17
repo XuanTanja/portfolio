@@ -44,7 +44,7 @@ function About() {
             <br/>
             <br/>
             <br/>
-            <h1 className="section-title">Willkommen auf meinem Portfolio!</h1>
+            <h1 className="section-title">Welcome to my portfolio!</h1>
             <Grid container alignItems="flex-start" spacing={5}>
                 <Grid item xs={12} sm={4}>
                     <div className="align-center about-image">
@@ -61,8 +61,8 @@ function About() {
                 </Grid>
                 <Grid item xs={12} sm={8}>
                     <Typography variant="body1" gutterBottom  align="justify">
-                        Hier werden mehrere meiner verschiedenen Projekte präsentiert.<br />
-                        Viel Spaß :)
+                        Here several of my different projects are presented.<br />
+                        Have fun :)
                     </Typography>
                 </Grid>
             </Grid>

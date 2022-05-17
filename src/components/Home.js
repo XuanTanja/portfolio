@@ -15,15 +15,15 @@ function Home() {
   ]
   const menuItems = [
     {
-        title: "Über mich",
+        title: "About me",
         path: "about"
     },
     {
-        title: "Projekte",
+        title: "Projects",
         path: "all-projects"
     },
     {
-        title: "Kontakt",
+        title: "Contact",
         path: "contact-footer"
     }
   ]

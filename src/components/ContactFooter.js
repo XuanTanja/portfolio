@@ -33,7 +33,7 @@ function ContactFooter() {
            <Grid container alignItems="flex-start">
                 <Grid item xs={12} md={5}>
                     <Typography gutterBottom variant="h5" component="h2" color="primary">
-                        Hier bin ich zu erreichen!
+                        Contact
                     </Typography>
                     <Grid container direction="column" justify="flex-start" alignItems="flex-start">
                     {contactItems.map((item, idx) => (
